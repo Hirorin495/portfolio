@@ -1,0 +1,21 @@
+.textCenter {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.tableTextCenter {
+  text-align: center;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+	grid-gap: 1.0em;
+  padding-bottom: 1.0em;
+}
+
+.card{
+	height: max-content;
+}

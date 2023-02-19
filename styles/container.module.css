@@ -1,0 +1,11 @@
+.default {
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.small {
+  composes: default;
+  width: 80%;
+  max-width: 1152px;
+}
