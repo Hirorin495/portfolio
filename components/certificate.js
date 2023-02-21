@@ -4,7 +4,7 @@ export default function certification({name, fullName, date, path, desc}) {
       <div className="card">
         <div className="card-image">
           <figure className="image is-1by1">
-            <img src={path}/>
+            <img src={path} alt="image"/>
           </figure>
         </div>
         
@@ -25,7 +25,7 @@ export default function certification({name, fullName, date, path, desc}) {
             <div className="media">
                 <div className="media-left">
                   <figure className="image is-96x96">
-                    <img src={path} />
+                    <img src={path} alt="image"/>
                   </figure>
                 </div>
                 <div className="media-content">

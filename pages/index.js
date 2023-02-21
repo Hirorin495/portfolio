@@ -12,7 +12,7 @@ export default function Home() {
       <Container>
         <div className={styles.imageCenter}>
           <figure className="image is-128x128">
-            <img className="is-rounded" src="/Hirorin.png" />
+            <img className="is-rounded" src="/Hirorin.png" alt="image"/>
           </figure>
         </div>
 

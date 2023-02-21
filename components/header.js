@@ -2,6 +2,7 @@ import Container from "components/container"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faStar, faSquareCheck, faCommentDots } from "@fortawesome/free-regular-svg-icons";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -9,9 +10,9 @@ export default function Header() {
       <Container>
         <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
-            <a className="navbar-item" href="/">
-              <img src="/MyLogo1.png" />
-            </a>
+            <Link className="navbar-item" href="/">
+              <img src="/MyLogo1.png" alt="image"/>
+            </Link>
 
             <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="menu" onClick={toggleMenu}>
               <span aria-hidden="true"></span>
@@ -22,18 +23,18 @@ export default function Header() {
 
           <div id="menu" className="navbar-menu">
             <div className="navbar-start">
-              <a className="navbar-item" href="/">
+              <Link className="navbar-item" href="/">
                 <FontAwesomeIcon icon={faUser} /> Top
-              </a>
-              <a className="navbar-item" href="/skills">
+              </Link>
+              <Link className="navbar-item" href="/skills">
                 <FontAwesomeIcon icon={faStar} /> Skills
-              </a>
-              <a className="navbar-item" href="/certifications">
+              </Link>
+              <Link className="navbar-item" href="/certifications">
                 <FontAwesomeIcon icon={faSquareCheck} /> Certifications
-              </a>
-              <a className="navbar-item" href="/links">
+              </Link>
+              <Link className="navbar-item" href="/links">
                 <FontAwesomeIcon icon={faCommentDots} /> Links
-              </a>
+              </Link>
             </div>
           </div>
         </nav>

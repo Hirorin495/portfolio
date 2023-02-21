@@ -4,6 +4,7 @@ import Certificate from "components/certificate"
 import Container from "components/container"
 
 import styles from "styles/certificate.module.css"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
           <p>
             これまで受験し、合格した資格試験です。<br/>
             学ぶことが好きなので、今後も資格試験に力を入れていく予定です。<br/>
-            <a href="https://www.credly.com/users/username.bfcd2fca/badges" target="_blank">Credy</a>に他の取得資格がまとめられています。
+            <Link href="https://www.credly.com/users/username.bfcd2fca/badges" rel="noreferrer" target="_blank">Credy</Link>に他の取得資格がまとめられています。
           </p>
         </div>
 

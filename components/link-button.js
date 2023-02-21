@@ -6,7 +6,7 @@ export default function LinkButton({name, path, url}) {
       <Link href={url} target="_blank">
         <button className="button is-large is-fullwidth level">
           <span className="image is-48x48 level-left">
-            <img className="level-item" src={path} />
+            <img className="level-item" src={path} alt="image"/>
           </span>
           <span className="level-item has-text-centered">{name}</span>
         </button>
