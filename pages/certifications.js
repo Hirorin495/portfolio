@@ -23,46 +23,25 @@ export default function Home() {
         <div className={styles.container}>
           <Certificate
             name="SAP-C02"
-            fullName="Solutions Architect Professional"
-            date="2022/12/24"
-            path="/SAP.png"
-            desc="3ヶ月の勉強期間、2度目の挑戦にて773点で合格" />
+            path="/SAP.png" />
           <Certificate
             name="DOP-C01"
-            fullName="DevOps Engineer Professional"
-            date="2022/09/24"
-            path="/DOP.png"
-            desc="2ヶ月の勉強期間、1度目の挑戦にて、860点で合格" />
+            path="/DOP.png"/>
           <Certificate
             name="SOA-C02"
-            fullName="SysOps Administrator Associate"
-            date="2022/03/26"
-            path="/SOA.png"
-            desc="2ヶ月の勉強期間、2度目の挑戦にて、765点で合格" />
+            path="/SOA.png" />
           <Certificate
             name="SAA-C02"
-            fullName="Solutions Architect Associate"
-            date="2021/12/11"
-            path="/SAA.png"
-            desc="1ヶ月の勉強期間、1度目の挑戦にて、765点で合格" />
+            path="/SAA.png" />
           <Certificate
             name="DVA-C01"
-            fullName="Solutions Architect Associate"
-            date="2021/10/30"
-            path="/DVA.png"
-            desc="1ヶ月の勉強期間、1度目の挑戦にて、788点で合格" />
+            path="/DVA.png" />
           <Certificate
             name="TCA"
-            fullName="Tanium Certified Administrator"
-            date="2022/07/23"
-            path="/TCA.png"
-            desc="IT資産管理サービス、Taniumの管理者認定資格（英語）" />
+            path="/TCA.png" />
           <Certificate
             name="TCO"
-            fullName="Tanium Certified Operator"
-            date="2022/02/27"
-            path="/TCO.png"
-            desc="IT資産管理サービス、Taniumのオペレータ認定資格（英語）" />
+            path="/TCO.png" />
         </div>
       </Container>
     </PageLayout>
