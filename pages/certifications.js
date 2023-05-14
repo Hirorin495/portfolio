@@ -22,7 +22,7 @@ export default function Home() {
 
         <div className={styles.container}>
           <Certificate
-            name="CSC-C01"
+            name="SCS-C01"
             path="/SCS.png"/>
           <Certificate
             name="SAP-C02"
