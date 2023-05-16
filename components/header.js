@@ -1,7 +1,7 @@
 import Container from "components/container"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser, faStar, faSquareCheck, faCommentDots } from "@fortawesome/free-regular-svg-icons";
+import { faUser, faStar, faSquareCheck, faCommentDots, faKeyboard } from "@fortawesome/free-regular-svg-icons";
 import Link from "next/link";
 
 export default function Header() {
@@ -28,6 +28,9 @@ export default function Header() {
               </Link>
               <Link className="navbar-item" href="/skills">
                 <FontAwesomeIcon icon={faStar} /> Skills
+              </Link>
+              <Link className="navbar-item" href="/artifacts">
+              <FontAwesomeIcon icon={faKeyboard} /> Artifacts
               </Link>
               <Link className="navbar-item" href="/certifications">
                 <FontAwesomeIcon icon={faSquareCheck} /> Certifications
