@@ -21,6 +21,9 @@ export default function Home() {
         </div>
 
         <div className={styles.container}>
+        <Certificate
+            name="DBS-C01"
+            path="/DBS.png" />
           <Certificate
             name="SCS-C01"
             path="/SCS.png"/>
@@ -42,9 +45,6 @@ export default function Home() {
           <Certificate
             name="TCA"
             path="/TCA.png" />
-          <Certificate
-            name="TCO"
-            path="/TCO.png" />
         </div>
       </Container>
     </PageLayout>
